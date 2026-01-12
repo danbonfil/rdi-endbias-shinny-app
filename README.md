@@ -1,9 +1,8 @@
-# 📊 RDI Growth & Electoral Accountability — Shiny Dashboard
+# 📊 RDI Growth & Electoral Accountability
 
-Interactive macroeconomic analytics dashboard built in **R Shiny** using the Federal Reserve Economic Data (FRED API).  
-This project was developed to support and extend a **PhD working paper on economic voting and executive accountability**.
+Interactive macroeconomic dashboard built in **R Shiny** using the Federal Reserve Economic Data (FRED API). This project was developed to support and extend a **PhD working paper on economic voting and democratic accountability**.
 
-The dashboard reconstructs U.S. real disposable personal income (RDI) growth dynamics across presidential terms and **challenges the findings of Healy & Lenz (2014)** by explicitly visualizing cumulative versus yearly economic framing.
+The dashboard reconstructs U.S. real disposable personal income (RDI) growth dynamics across presidential terms and **challenges the findings of Healy & Lenz (2014)** by explicitly visualizing incumbents with cumulative versus yearly economic framing.
 
 🔗 **Live App:** https://danbo.shinyapps.io/info_vote/
 
@@ -12,8 +11,6 @@ The dashboard reconstructs U.S. real disposable personal income (RDI) growth dyn
 ## 📌 Preview
 
 ![RDI Dashboard](rdi-endbias-shinny-app.png)
-
-![RDI Dashboard (Animated)](rdi-endbias-shinny-app.gif)
 
 ---
 
@@ -29,7 +26,7 @@ Federal Reserve Economic Data (FRED)
 
 ## 🧠 Theoretical Motivation
 
-I am particularly interested in how biases and perceptions related to economic performance influence vote in the U.S. Specifically, I analyze how affect for political figures in the U.S. influences retrospective evaluations of the economy. This dashboard is grounded in and directly challenges:
+I am particularly interested in how biases and perceptions related to economic performance influence voting behavior. Specifically, I analyze how affect for political figures in the U.S. influences retrospective evaluations of the economy. This dashboard is grounded in and directly challenges:
 
 **Healy, Andrew & Lenz, Gabriel (2014)**  
 *Substituting the End for the Whole: Bias in Democratic Accountability*  
@@ -64,6 +61,8 @@ This ensures mathematical consistency across yearly and cumulative frames.
 ## 🧠 Dashboard Architecture
 
 The interface is organized as a **four-panel accountability system**:
+
+![RDI Dashboard (Animated)](rdi-endbias-shinny-app.gif)
 
 ---
 
@@ -110,7 +109,7 @@ Presents the **overall macroeconomic outcome** of each presidency using cumulati
 
 - One election-year selector controls all four panels  
 - All metrics are derived from a single FRED-based macroeconomic series  
-- Presidential portraits are retrieved from the [White House historical archive](https://trumpwhitehouse.archives.gov/about-the-white-house/presidents/)
+- Presidential portraits are retrieved from the [White House Historical Archive](https://trumpwhitehouse.archives.gov/about-the-white-house/presidents/)
 - Guarantees internal consistency across yearly and cumulative framing  
 - Enables historical replay of accountability narratives
 
