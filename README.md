@@ -2,7 +2,7 @@
 
 Interactive macroeconomic dashboard built in **R Shiny** using the Federal Reserve Economic Data (FRED API). This project was developed to support and extend a **PhD working paper on economic voting and democratic accountability**.
 
-The dashboard reconstructs U.S. real disposable personal income (RDI) growth dynamics across presidential terms and **challenges the findings of Healy & Lenz (2014)** by explicitly visualizing incumbents with cumulative versus yearly economic framing.
+The dashboard reconstructs U.S. real disposable personal income (RDI) growth dynamics across presidential terms and explicitly frames incumbents with cumulative versus yearly economic framing.
 
 🔗 **Live App:** https://danbo.shinyapps.io/info_vote/
 
@@ -26,11 +26,7 @@ Federal Reserve Economic Data (FRED)
 
 ## 🧠 Theoretical Motivation
 
-I am particularly interested in how biases and perceptions related to economic performance influence voting behavior. Specifically, I analyze how affect for political figures in the U.S. influences retrospective evaluations of the economy. This dashboard is grounded in and directly challenges:
-
-**Healy, Andrew & Lenz, Gabriel (2014)**  
-*Substituting the End for the Whole: Bias in Democratic Accountability*  
-https://doi.org/10.1111/ajps.12053
+I am particularly interested in how biases and perceptions related to economic performance influence voting behavior. Specifically, I analyze how affect for political figures in the U.S. influences retrospective evaluations of the economy.
 
 ---
 
@@ -47,7 +43,9 @@ https://doi.org/10.1111/ajps.12053
 
 ## 🧬 Growth Construction Logic
 
-As in the original paper I calculate growth using natural logs, so cumulative growth is the sum of yearly growth.
+As in the original paper I calculate growth using natural logs, so cumulative growth is the sum of yearly growth:
+
+* Healy, A., & Lenz, G. S. (2014). *Substituting the end for the whole: Why voters respond primarily to the election-year economy*. *American Journal of Political Science*. https://doi.org/10.1111/ajps.12053
 
 The dashboard uses:
 
