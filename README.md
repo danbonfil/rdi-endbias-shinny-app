@@ -99,7 +99,7 @@ Replicates the **short-term electoral framing** commonly used in mainstream medi
 Displays **total accumulated RDI growth over the full presidential term**.
 
 **Purpose:**  
-Presents the **overall macroeconomic outcome** of each presidency using cumulative growth — directly challenging election-year bias.
+Presents the **cumulative growth** of each term linking overall performance with incumbents.
 
 ---
 
